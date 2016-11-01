@@ -1,0 +1,209 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tidy' ]
+2 info using npm@2.15.1
+3 info using node@v0.10.48
+4 verbose install initial load of C:\wamp\www\digitalformatconvert\package.json
+5 verbose readDependencies loading dependencies from C:\wamp\www\digitalformatconvert\package.json
+6 silly cache add args [ 'tidy', null ]
+7 verbose cache add spec tidy
+8 silly cache add parsed spec { raw: 'tidy',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'tidy',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed tidy@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for tidy
+11 info addNameTag [ 'tidy', 'latest' ]
+12 silly mapToRegistry name tidy
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data { raw: 'tidy',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'tidy',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/tidy
+17 verbose addNameTag registry:https://registry.npmjs.org/tidy not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/tidy
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 17:38:01
+21 verbose request id c609df0115968dd0
+22 http request GET https://registry.npmjs.org/tidy
+23 http 200 https://registry.npmjs.org/tidy
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"30LD3CKCIBT6PH9KTWZ29KKTD"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '693',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Tue, 25 Oct 2016 20:38:03 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-gru7121-GRU',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1477427882.767672,VS0,VE615',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"30LD3CKCIBT6PH9KTWZ29KKTD"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '693',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Tue, 25 Oct 2016 20:38:03 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-gru7121-GRU',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1477427882.767672,VS0,VE615',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving tidy to C:\Users\jacqu_000\AppData\Roaming\npm-cache\registry.npmjs.org\tidy\.cache.json
+27 verbose correctMkdir C:\Users\jacqu_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly addNameTag next cb for tidy with tag latest
+29 silly addNamed tidy@0.0.1
+30 verbose addNamed "0.0.1" is a plain semver version for tidy
+31 silly mapToRegistry name tidy
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data { raw: 'tidy',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'tidy',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/tidy
+36 verbose addRemoteTarball https://registry.npmjs.org/tidy/-/tidy-0.0.1.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/tidy/-/tidy-0.0.1.tgz',
+37 verbose addRemoteTarball   'ce70f54a7dd4a8685360c7e99d81b2647a50433b' ]
+38 info retry fetch attempt 1 at 17:38:03
+39 info attempt registry request try #1 at 17:38:03
+40 http fetch GET https://registry.npmjs.org/tidy/-/tidy-0.0.1.tgz
+41 http fetch 200 https://registry.npmjs.org/tidy/-/tidy-0.0.1.tgz
+42 silly fetchAndShaCheck shasum ce70f54a7dd4a8685360c7e99d81b2647a50433b
+43 verbose addTmpTarball C:\Users\JACQU_~1\AppData\Local\Temp\npm-15960-9596ca00\registry.npmjs.org\tidy\-\tidy-0.0.1.tgz not in flight; adding
+44 verbose addTmpTarball already have metadata; skipping unpack for tidy@0.0.1
+45 verbose correctMkdir C:\Users\jacqu_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+46 silly cache afterAdd tidy@0.0.1
+47 verbose afterAdd C:\Users\jacqu_000\AppData\Roaming\npm-cache\tidy\0.0.1\package\package.json not in flight; writing
+48 verbose correctMkdir C:\Users\jacqu_000\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+49 verbose afterAdd C:\Users\jacqu_000\AppData\Roaming\npm-cache\tidy\0.0.1\package\package.json written
+50 silly install resolved [ { name: 'tidy',
+50 silly install resolved     version: '0.0.1',
+50 silly install resolved     scripts:
+50 silly install resolved      { preinstall: 'node-waf configure && node-waf clean build',
+50 silly install resolved        preuninstall: 'rm -rf build/*' },
+50 silly install resolved     main: 'tidy.js',
+50 silly install resolved     description: 'a binding to the tidy html library',
+50 silly install resolved     dependencies: { jsdom: 'latest' },
+50 silly install resolved     author: { name: 'Martyn Garcia', email: 'martyn.garcia@gmail.com' },
+50 silly install resolved     _npmJsonOpts:
+50 silly install resolved      { file: '/home/martyn/.npm/tidy/0.0.1/package/package.json',
+50 silly install resolved        contributors: false,
+50 silly install resolved        serverjs: false,
+50 silly install resolved        wscript: true },
+50 silly install resolved     _id: 'tidy@0.0.1',
+50 silly install resolved     devDependencies: {},
+50 silly install resolved     engines: { node: '*' },
+50 silly install resolved     _engineSupported: true,
+50 silly install resolved     _npmVersion: '1.0.23',
+50 silly install resolved     _nodeVersion: 'v0.4.10',
+50 silly install resolved     _defaultsLoaded: true,
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: 'ce70f54a7dd4a8685360c7e99d81b2647a50433b',
+50 silly install resolved        tarball: 'https://registry.npmjs.org/tidy/-/tidy-0.0.1.tgz' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     directories: {},
+50 silly install resolved     _shasum: 'ce70f54a7dd4a8685360c7e99d81b2647a50433b',
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/tidy/-/tidy-0.0.1.tgz',
+50 silly install resolved     _from: 'tidy@latest' } ]
+51 info install tidy@0.0.1 into C:\wamp\www\digitalformatconvert
+52 info installOne tidy@0.0.1
+53 verbose installOne of tidy to C:\wamp\www\digitalformatconvert not in flight; installing
+54 verbose correctMkdir C:\Users\jacqu_000\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+55 verbose lock using C:\Users\jacqu_000\AppData\Roaming\npm-cache\_locks\tidy-65f3d8450e69f503.lock for C:\wamp\www\digitalformatconvert\node_modules\tidy
+56 silly install write writing tidy 0.0.1 to C:\wamp\www\digitalformatconvert\node_modules\tidy
+57 verbose unbuild node_modules\tidy
+58 silly gentlyRm C:\wamp\www\digitalformatconvert\node_modules\tidy is being purged from base C:\wamp\www\digitalformatconvert
+59 verbose gentlyRm don't care about contents; nuking C:\wamp\www\digitalformatconvert\node_modules\tidy
+60 verbose tar unpack C:\Users\jacqu_000\AppData\Roaming\npm-cache\tidy\0.0.1\package.tgz
+61 verbose tar unpacking to C:\wamp\www\digitalformatconvert\node_modules\tidy
+62 silly gentlyRm C:\wamp\www\digitalformatconvert\node_modules\tidy is being purged
+63 verbose gentlyRm don't care about contents; nuking C:\wamp\www\digitalformatconvert\node_modules\tidy
+64 silly gunzTarPerm modes [ '777', '666' ]
+65 silly gunzTarPerm extractEntry tidy.js
+66 silly gunzTarPerm modified mode [ 'tidy.js', 420, 438 ]
+67 silly gunzTarPerm extractEntry engadget_article.html
+68 silly gunzTarPerm modified mode [ 'engadget_article.html', 420, 438 ]
+69 silly gunzTarPerm extractEntry config
+70 silly gunzTarPerm modified mode [ 'config', 420, 438 ]
+71 silly gunzTarPerm extractEntry jquery-1.6.2.min.js
+72 silly gunzTarPerm modified mode [ 'jquery-1.6.2.min.js', 420, 438 ]
+73 silly gunzTarPerm extractEntry wscript
+74 silly gunzTarPerm modified mode [ 'wscript', 420, 438 ]
+75 silly gunzTarPerm extractEntry test_jsdom.js
+76 silly gunzTarPerm modified mode [ 'test_jsdom.js', 420, 438 ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+79 silly gunzTarPerm extractEntry test_tidy.js
+80 silly gunzTarPerm modified mode [ 'test_tidy.js', 420, 438 ]
+81 silly gunzTarPerm extractEntry node_tidy.cc
+82 silly gunzTarPerm modified mode [ 'node_tidy.cc', 420, 438 ]
+83 verbose write writing to C:\wamp\www\digitalformatconvert\node_modules\tidy\package.json
+84 info preinstall tidy@0.0.1
+85 verbose unsafe-perm in lifecycle true
+86 info tidy@0.0.1 Failed to exec preinstall script
+87 verbose unlock done using C:\Users\jacqu_000\AppData\Roaming\npm-cache\_locks\tidy-65f3d8450e69f503.lock for C:\wamp\www\digitalformatconvert\node_modules\tidy
+88 verbose stack Error: tidy@0.0.1 preinstall: `node-waf configure && node-waf clean build`
+88 verbose stack Exit status 1
+88 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+88 verbose stack     at EventEmitter.emit (events.js:98:17)
+88 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+88 verbose stack     at ChildProcess.emit (events.js:98:17)
+88 verbose stack     at maybeClose (child_process.js:766:16)
+88 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+89 verbose pkgid tidy@0.0.1
+90 verbose cwd C:\wamp\www\digitalformatconvert
+91 error Windows_NT 10.0.14393
+92 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "tidy"
+93 error node v0.10.48
+94 error npm  v2.15.1
+95 error code ELIFECYCLE
+96 error tidy@0.0.1 preinstall: `node-waf configure && node-waf clean build`
+96 error Exit status 1
+97 error Failed at the tidy@0.0.1 preinstall script 'node-waf configure && node-waf clean build'.
+97 error This is most likely a problem with the tidy package,
+97 error not with npm itself.
+97 error Tell the author that this fails on your system:
+97 error     node-waf configure && node-waf clean build
+97 error You can get information on how to open an issue for this project with:
+97 error     npm bugs tidy
+97 error Or if that isn't available, you can get their info via:
+97 error
+97 error     npm owner ls tidy
+97 error There is likely additional logging output above.
+98 verbose exit [ 1, true ]
+99 verbose unbuild node_modules\tidy
+100 info preuninstall tidy@0.0.1
+101 verbose unsafe-perm in lifecycle true
+102 info tidy@0.0.1 Failed to exec preuninstall script
+103 warn continuing anyway tidy@0.0.1 preuninstall: `rm -rf build/*`
+103 warn continuing anyway Exit status 1
+104 info uninstall tidy@0.0.1
+105 verbose unbuild rmStuff tidy@0.0.1 from C:\wamp\www\digitalformatconvert\node_modules
+106 info postuninstall tidy@0.0.1
+107 silly gentlyRm C:\wamp\www\digitalformatconvert\node_modules\tidy is being purged from base C:\wamp\www\digitalformatconvert
+108 verbose gentlyRm don't care about contents; nuking C:\wamp\www\digitalformatconvert\node_modules\tidy
+109 silly vacuum-fs purging C:\wamp\www\digitalformatconvert\node_modules\tidy
+110 silly vacuum-fs removing C:\wamp\www\digitalformatconvert\node_modules
+111 silly vacuum-fs finished vacuuming up to C:\wamp\www\digitalformatconvert
